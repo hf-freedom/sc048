@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: pet-hospital-system
+
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+logging:
+  level:
+    com.pet.hospital: DEBUG
+    org.springframework.web: INFO
